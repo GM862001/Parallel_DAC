@@ -44,7 +44,6 @@ $(BUILDDIR)%.o: $(SOURCEDIR)%.cpp $(CONFIG_FILE)
 clean:
 	rm -rf $(BINDIR)* $(BUILDDIR)*
 
-
 -include $(DEPFILES)
 
 .PHONY: all clean
